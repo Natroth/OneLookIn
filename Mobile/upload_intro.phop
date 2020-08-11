@@ -1,0 +1,57 @@
+<?php
+include("includes/includedFiles.php");
+
+?>
+
+<style>
+	.fa-headphones {
+		color: #28a4af;
+	}
+</style>
+
+<h1 class="pageHeadingBig">You Might Also Like</h1>
+
+<div class="gridViewContainer songGrid">
+
+	<?php
+    $resultArray = $_SESSION["resultArray"];
+		$jsonArray = json_encode($resultArray);
+		?>
+
+		<script>
+				$(document).ready(function() {
+					var tempSongIds = '<?php echo json_encode($resultArray); ?>';
+					tempPlaylist = JSON.parse(tempSongIds);
+					history.pushState({}, null, "browse.php?id=" + currentPlaylist[currentIndex]);
+
+		});
+		</script>
+
+		<?php
+	//	if($userLoggedIn = $_SESSION['Guest'])
+	//	{}
+//		else {
+
+		foreach($resultArray as $row) {
+			$albumSong = new Song($con, $row);
+			$albumArtist = $albumSong->getArtist();
+
+			echo "<div class='gridViewItem'>
+					<span role='link' tabindex='0' onclick='setTrack(\"" . $albumSong->getId() . "\", tempPlaylist, true)'>
+						<img src='../projectx/" . $albumSong->getArtworkPath() . "'>
+
+						<div class='gridViewInfo'>"
+							. $albumSong->getTitle() .
+						"</div>
+						<span class='songArtistName'>" . $albumArtist->getName() . "</span>
+					</span>
+
+				</div>";
+
+
+}
+
+
+	?>
+
+</div>

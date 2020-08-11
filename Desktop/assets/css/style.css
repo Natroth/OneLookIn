@@ -1,0 +1,413 @@
+
+* {
+    font-family: brandon-grotesque, sans-serif;
+
+}
+
+a {
+    text-decoration: none !important;
+}
+
+body {
+    background-color: #f8f8f8;
+
+}
+
+
+.column {
+    background-color: #fff;
+    border-radius: 34px;
+  /*  border: 1px solid #dcdcdc; */
+}
+
+
+.main_column {
+    padding: 2rem;
+}
+
+
+.top_bar {
+    margin: 0;
+    width: 100%;
+    background-color: #c8d3c5;
+    height: 12rem;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+}
+
+.headerPic {
+    margin-left: 9rem;
+    margin-top: 0rem;
+    width: 15em;
+    border: 15px solid #c8d3c5;
+    border-radius: 120px;
+}
+
+.headerName {
+    font-size: 2.5rem;
+    margin-left: 2rem;
+    color: #484848;
+    font-family: brandon-grotesque, sans-serif;
+    margin-top: 8rem;
+
+}
+
+.headerInfo {
+    display: flex;
+    flex-flow: row;
+    align-items: baseline;
+}
+
+.headerButtons {
+    font-size: 2.5rem;
+    margin-right: 6rem;
+    margin-top: 5rem;
+    color: #000;
+}
+
+.thisButton {
+    color: #484848; 
+    font-size: 2.5rem;
+    padding: 6px;
+}
+
+.uploadSongButton {
+    display: flex;
+    flex-flow: column;
+    width: 12rem;
+    text-align: center;
+    color: #696969;
+}
+
+.uploadButtonText {
+    text-decoration: none;
+    font-size: 2rem; 
+    font-family: brandon-grotesque, sans-serif;
+    line-height: 1.1;
+
+    
+}
+.uploadSongButton:hover
+ {
+    text-decoration: none;
+    color: #28a4af;
+}
+
+.statsInfo {
+    font-family: brandon-grotesque, sans-serif;
+
+    color: #696969;
+    font-size: 1.5rem;
+    width: 12rem;
+    text-align: center
+}
+
+.user_details {
+    display: flex;
+    flex-flow: column;
+    height: 30rem;
+    justify-content: space-evenly;
+}
+
+.gridViewItem {
+    display: flex;
+    margin-bottom: 1rem;
+    flex-flow: initial;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.gridViewInfo {
+    font-family: brandon-grotesque, sans-serif;
+    display: flex;
+    align-items: center;    
+    color: #696969;
+}
+
+.songPic {
+    width: 4rem;
+    border-radius: 10px; 
+}
+
+.firstLayer {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+    margin-top: 7rem;
+}
+
+.topSongsHeader {
+    font-family: brandon-grotesque, sans-serif;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.myCollections {
+    font-family: brandon-grotesque, sans-serif;
+    margin-top: 2rem;
+    text-align: center;  
+}
+
+.collectionSkin {
+    text-align: center;
+    width: 100%;
+}
+
+.collectionHeader {
+    font-family: brandon-grotesque, sans-serif;
+    font-size: 2rem;
+    color: #28a4af;
+}
+
+.titleOverflow {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 5.5rem;
+    font-family: brandon-grotesque, sans-serif;
+
+}
+
+.delete_button {
+    color: red;
+    border: navajowhite;
+    background-color: transparent;
+}
+
+.delete_button:hover {
+    cursor: pointer;
+}
+
+.post_form {
+    display: flex;
+    flex-flow: column;
+    width: 85%;
+    margin: auto;
+    outline: 0;
+}
+
+input {
+    font-family: brandon-grotesque, sans-serif;
+    outline: 0;
+}
+
+.post_text {
+    font-family: brandon-grotesque, sans-serif;
+    font-size: 1.5rem;
+    height: 3rem;
+    border-radius: 8px;
+    outline: 0;
+}
+
+.unset-button {
+    font-family: brandon-grotesque, sans-serif;
+
+    font-size: 1.5rem;
+    background-color: #c8d3c5;
+    color: #484848;
+    width: 15rem;
+    padding: 5px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.modal-title {
+    font-family: brandon-grotesque, sans-serif;
+    text-align: center;
+    margin: auto;
+}
+
+.genreSelect {
+    font-family: brandon-grotesque, sans-serif;
+    color: #696969;
+}
+
+.promise-text {
+    font-family: brandon-grotesque, sans-serif;
+
+}
+
+.filesSkin {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+}
+
+option {
+    font-family: brandon-grotesque, sans-serif;
+}
+
+.uploadHeader {
+    text-align: center;
+    font-family: brandon-grotesque, sans-serif;
+    color: #696969;
+}
+
+.nothingHere {
+    font-family: brandon-grotesque, sans-serif;
+    text-align: center;
+    color: #28a4af;
+}
+
+.fa-hand-point-left {
+    font-size: 3rem;
+    margin-top: 1rem;
+}
+
+#inputContainer {
+    font-family: brandon-grotesque, sans-serif;
+}
+
+.loginForm {
+    margin-top: 13rem;
+    margin-left: 5rem;
+}
+
+.fakeModal {
+    display: -webkit-inline-box;
+    flex-flow: row;
+    justify-content: space-between;
+}
+
+.registerImage {
+    position: relative;
+    margin-left: -8%;
+    width: 104%;
+    overflow: hidden;
+}
+
+
+.secondLayer {
+    width: 90%;
+    margin: auto;
+}
+
+.errorMessage {
+    color: red;
+    display: flex;
+}
+
+.request_column {
+    background-color: #fff;
+    width: 80%;
+    margin: auto;
+    margin-top: 7rem;
+   /* border: 1px solid #dcdcdc; */
+    font-family: brandon-grotesque, sans-serif;
+    border-radius: 20px;
+}
+
+.settingsTopBar {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+}
+
+.logout {
+    font-family: brandon-grotesque, sans-serif;
+    color: #28a4af;
+    font-size: 1.5rem;
+}
+
+.changePicButton {
+    color: #28a4af;
+    font-family: brandon-grotesque, sans-serif;
+    font-size: 1.5rem;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.changePicButton:hover {
+    cursor: pointer;
+    color: #000;
+}
+
+.topSongsText {
+    font-size: 1.5rem;
+    text-overflow: ellipsis;
+    max-width: 11rem;
+    white-space: nowrap;
+    overflow: hidden;
+    display: inline-block;
+    margin-top: .8rem;
+}
+
+.hoverPointer:hover {
+    cursor: pointer; 
+}
+
+.registerHeader {
+    position: absolute;
+    top: 3rem;
+    left: 5rem;
+    font-size: 4rem;
+}
+
+.forCreators {
+    color: #28a4af;
+    font-size: 1.8rem;
+    display: flex;
+    margin-left: 5px;
+}
+
+.moreInfo {
+    color: #28a4af;
+    margin-left: 80px;
+}
+
+.moreInfoMessage {
+    margin-top: 15rem !important;
+    text-align: center;
+    background-color: #fff;
+    padding: 1rem;
+    width: 75%;
+    margin: auto;
+    border-radius: 15px;
+    font-size: 1.5rem;
+    line-height: 1.4;
+}
+
+.reciept_column {
+    margin-top: 10rem !important;
+    width: 75%;
+    margin: auto;
+    text-align: center;
+    font-family: brandon-grotesque, sans-serif;
+
+}
+
+.congrats {
+    font-family: brandon-grotesque, sans-serif;
+    color: #484848;
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+.myLink {
+    color: #28a4af;
+    padding: .5rem;
+    font-size: 1.3rem;
+    width: 32rem;
+    text-align: center;
+    border-radius: 5px;
+    border: 1px solid #dcdcdc;
+}
+
+.getLink {
+    height: 2.6rem;
+    color: #484848;
+    background-color: #c8d3c5;
+    border: none;
+    border-radius: 5px;
+    margin-left: 7px;
+    font-weight: 600;
+}
+
+.congratsText {
+    padding-top: 2rem;
+    font-size: 1.2rem;
+    width: 34rem;
+    margin: auto;
+    margin-bottom: 2rem !important;
+}

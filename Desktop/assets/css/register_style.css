@@ -1,0 +1,235 @@
+@font-face{
+	font-family: 'Raleway-Regular';
+	src: url(../fonts/Raleway-Regular.ttf);
+}
+
+@font-face{
+	font-family: 'Raleway-Light';
+	src: url(../fonts/Raleway-Light.ttf);
+}
+@font-face{
+	font-family: 'Raleway-Medium';
+	src: url(../fonts/Raleway-Medium.ttf);
+}
+
+@font-face{
+	font-family: 'Raleway-Thin';
+	src: url(../fonts/Raleway-Thin.ttf);
+}
+
+
+@font-face{
+	font-family: 'Exo-Bold';
+	src: url(../fonts/Exo-Bold.otf);
+}
+
+@font-face{
+	font-family: 'Exo-Thin';
+	src: url(../fonts/Exo-Thin.otf);
+}
+
+
+
+
+html,body{
+
+	height: 100%;
+	min-height: 100%;
+
+}
+
+
+form {
+	text-align: center;
+}
+
+
+body{
+
+	height: 100%;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+
+
+.wrapper {
+
+	width: 100%;
+
+	min-width: 950px;
+	opacity: .98;
+	overflow-x: hidden;
+
+}
+ 
+ .about_wrapper {
+	width: 100%;
+
+	min-width: 950px;
+	opacity: .98;
+	overflow-x: hidden;     
+		background-image: url("../images/backgrounds/dust_scratches.png");
+    height: 100vh;
+	background-size: 35%;
+ }
+ 
+ #wrapper {
+ 
+ }
+ 
+
+
+.login_box {
+
+
+    font-family: 'Raleway-Light';
+    position: relative;
+		background-image: url("../images/backgrounds/dust_scratches.png");  
+    /* margin-left: auto; */
+    /* top: 68px; */
+    width: 100%;
+    
+    /* width: 500px; */
+    /* margin: 40px auto; */
+    background-size: 100%;
+    padding-top: 30px;
+    height: 100%;
+    top: -35px;
+    
+}
+
+
+
+
+
+
+.login_header{
+width: 100%;
+    background-color: #13a380;
+    height: 150px;
+    margin-right: auto;
+    /* margin-left: auto; */
+    color: #ffffff;
+   
+    border-top-left-radius: 7px: border-top-right-radius: 7px: position: fixed;
+    z-index: 9;
+
+}
+
+.login_header h1 {
+    font-family: 'Raleway-Regular';
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 85px;
+    padding-top: 18px;
+    font-size: 70px;
+    color: #e8e8e8;
+}
+
+
+.login_header_2 h2 {
+	font-family: 'Raleway-Thin';	
+	position: relative;
+	margin-right: auto;
+	margin-left: auto;
+	color: #13a380;
+	font-size: 36px;
+
+}
+
+input[type="submit"] {
+	background-color: #fff;
+	border: none;
+	padding: 10px 20px 10px 20px;
+	margin: 5px 0 5px 0;
+	border-radius: 10px;
+	color: #13a380;
+	font-family: 'Raleway-Medium';
+	font-size: 150%;
+	border: 1px solid #dcdcdc;
+}
+
+input[type="submit"]:hover {
+	cursor: pointer;
+	}
+
+
+input[type= "text"], input[type="email"], input[type= "password"]  {
+
+	border: none;
+	margin-top: 5px;
+	width: 43%;
+	height: 50px;
+	margin-bottom: 8px;
+	margin-left: 20px;
+	margin-right: 20px;
+	padding: 7px;
+	border-radius: 5px;
+	font-family: Raleway-Regular;
+	font-size: 16px;
+	
+
+}
+
+input[type= "text"]:hover, input[type="email"]:hover, input[type= "password"]:hover
+{
+	border-color: #96a4af;
+}
+
+input[type= "text"]:focus, input[type="email"]:focus, input[type= "password"]:focus
+{
+	outline:none;
+} 
+ 
+
+.about_column {
+	position: relative;
+	width: 60%;
+	min-height: 5vh;
+	margin-left: auto;
+	margin-right: auto;
+	top: 5%;
+	background-color: #fff;
+	border-radius: 7px;
+	border: 2px solid #13A38A;
+	font-family: 'Raleway-Regular';
+	padding: 30px;
+}
+  
+.copyright {
+font-family: Raleway-Light;
+    position: fixed;
+    top: 97%;
+    left: 92.5%;
+    font-size: 15px;
+    color: #f8f8f8; 
+}
+
+.social_music {
+    position: relative;
+    left: 265px;
+    top: -7px;
+    font-family: Raleway-Regular;
+    font-size: 19px;
+    color: #e8e8e8;
+    }
+    
+.connect {
+    font-family: Raleway-Light;
+    width: 150px;
+    font-size: 56px;
+    margin-right: 31vh;
+    position: relative;
+    bottom: 80%;
+    text-shadow: 2px 2px #696969;
+    color: #fff;
+    float: right;
+    z-index: -1;
+    font-weight: 600;
+    }    
+    
+.button:hover {
+	cursor: pointer;
+}    
